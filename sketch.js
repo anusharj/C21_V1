@@ -1,15 +1,14 @@
-
 var wall, thickness;
 var bullet,speed, weight;
 
 function setup() {
   createCanvas(1600, 400);
 
-  speed=random(223,321)
-  weight=random(30,52)
+  speed=random(223,321);
+  weight=random(30,52);
 
 
-  thickness=random(22,83)
+  thickness=random(22,83);
 
 
 
@@ -69,5 +68,3 @@ function hasCollided(lbullet, lwall)
 	}
 	return false;
 }
-
-
